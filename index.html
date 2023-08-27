@@ -1,33 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en">    
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Halaman Utama</title>
+    <title>Fakhrun - Home Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body>
-    <header>
-        <h1>Selamat Datang di Halaman Utama</h1>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="#">Beranda</a></li>
-            <li><a href="#">Tentang Kami</a></li>
-            <li><a href="#">Kontak</a></li>
+</bod>
+<!--  Nav Start-->
+<nav class="navbar navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Portofolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/react/">React.js</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/galery/">Next.js</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                contacs
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Whatsapp</a></li>
+              <li><a class="dropdown-item" href="#">Twitter</a></li>
+              <li><a class="dropdown-item" href="#">Instagram</a></li>
+              <li><a class="dropdown-item" href="#">Telegram</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">email</a></li>
+            </ul>
+          </li>
         </ul>
-    </nav>
-    <main>
-        <section>
-            <h2>Tentang Kami</h2>
-            <p>Selamat datang di website kami. Kami adalah perusahaan yang bergerak dalam...</p>
-        </section>
-        <section>
-            <h2>Kontak</h2>
-            <p>Anda dapat menghubungi kami melalui email: <a href="mailto:info@example.com">info@example.com</a></p>
-        </section>
-    </main>
-    <footer>
-        <p>Hak Cipta &copy; 2023 Perusahaan Kami</p>
-    </footer>
+      </div>
+    </div>
+  </nav>
+<!-- Nav End -->
+<!-- Layout Start -->
+  <div class="container-fluid text-center" style="height: 100;">
+    <div class="row align-items-center" >
+    <div class="col-8">
+      Halo, Perkenalkan nama saya Muhammad Fakhrun Nuha
+      Saya adalah seorang developer java,javascript,python.
+      dan framework yang saya bisa saat ini adalah:
+      <a href="#">React.JS</a>
+      <a href="#">Next.JS</a>
+
+    </div>
+    <div class="col-4">
+        <img src="github.png" alt="gambar" style="width: 100%;">
+      </div>
+    </div>
+  </div>
+  <!-- Layout END -->
 </body>
+<!-- Java Script Boostrap Start-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<!-- Java Script Boostrap End-->
 </html>
